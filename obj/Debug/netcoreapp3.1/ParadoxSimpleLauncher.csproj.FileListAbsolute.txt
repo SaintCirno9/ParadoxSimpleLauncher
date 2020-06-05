@@ -1,0 +1,17 @@
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.exe
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.deps.json
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.runtimeconfig.json
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.runtimeconfig.dev.json
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.dll
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\bin\Debug\netcoreapp3.1\ParadoxSimpleLauncher.pdb
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.csprojAssemblyReference.cache
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher_MarkupCompile.cache
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher_MarkupCompile.lref
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.g.resources
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.AssemblyInfoInputs.cache
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.AssemblyInfo.cs
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.dll
+C:\Users\Cirno\Documents\RiderProjects\ParadoxSimpleLauncher\obj\Debug\netcoreapp3.1\ParadoxSimpleLauncher.pdb

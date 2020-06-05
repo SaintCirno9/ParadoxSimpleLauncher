@@ -1,0 +1,62 @@
+﻿<Window x:Class="ParadoxSimpleLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParadoxSimpleLauncher"
+        mc:Ignorable="d"
+        Title="Launcher" Height="450" Width="800">
+    <Grid Name="Grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Grid.ColumnSpan="2" Name="MenuBar">
+            <MenuItem Header="文件">
+                <MenuItem Header="选择">
+                    <MenuItem Header="Europa Universalis IV" Click="MenuItem_OnClick1" />
+                    <MenuItem Header="Stellaris" Click="MenuItem_OnClick1" />
+                    <MenuItem Header="Hearts of Iron IV" Click="MenuItem_OnClick1" />
+                </MenuItem>
+                <!--<MenuItem Header="更新创意工坊mod">
+                    <MenuItem Header="Europa Universalis IV" Click="MenuItem_OnClick4" />
+                    <MenuItem Header="Stellaris" Click="MenuItem_OnClick4" />
+                </MenuItem>-->
+                <MenuItem Header="获取整合汉化">
+                    <MenuItem Header="Stellaris" Click="CreateChiYml"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Name="Save" Visibility="Collapsed" Click="MenuItem_OnClick2" />
+            <!-- <MenuItem Name="Start" Visibility="Hidden" Click="MenuItem_OnClick3" /> -->
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" FontSize="15" Content="已激活mod列表" />
+            <Button Grid.Column="1" FontSize="10" Content="全部取消" Click="ButtonBase_OnClick1" />
+            <Label Grid.Column="2" FontSize="15" Content="未激活mod列表" />
+            <Button Grid.Column="3" FontSize="10" Content="全部激活" Click="ButtonBase_OnClick1" />
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <DataGrid Grid.Column="0" Name="EnbGrid" Visibility="Hidden" AllowDrop="True"
+                      IsReadOnly="True"
+                      RowHeight="25"
+                      RowHeaderWidth="0" ColumnWidth="*" />
+            <DataGrid Grid.Column="1" Name="DisGrid" Visibility="Hidden" AllowDrop="True"
+                      IsReadOnly="True"
+                      RowHeight="25"
+                      RowHeaderWidth="0" ColumnWidth="*" />
+        </Grid>
+
+    </Grid>
+</Window>
